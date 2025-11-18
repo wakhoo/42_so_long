@@ -1,0 +1,107 @@
+{
+   <mlx42>
+   Memcheck:Addr8
+   fun:strncmp
+   ...
+   fun:dl_open_worker
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   ...
+   fun:mlx_init
+   fun:main
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   ...
+   fun:mlx_init
+   fun:main
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   ...
+}
+{
+   <mlx42>
+   Memcheck:Addr8
+   fun:strncmp
+   ...
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   ...
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znam
+   ...
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   fun:mlx_init
+   fun:main
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:dlopen_doit
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   ...
+   fun:main
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:_dl_catch_exception
+}
+{
+   <mlx42>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   ...
+   fun:dlopen@@GLIBC_2.34
+}
+
