@@ -10,7 +10,7 @@
 ## Grade
 Validated: **01/06/2024**
 
-Grade: ✅ **121%** ✅ (Full Score)
+Grade: ✅ **121%** ✅ 
 
 ![Grade](https://github.com/wakhoo/42_so_long/blob/main/assets/Screenshot%202025-07-21%20at%2011-41-17%20Intra%20Projects%20so_long.png?raw=true)
 
